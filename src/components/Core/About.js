@@ -1,0 +1,40 @@
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import Industry from '../../images/Industry.jpg';
+const About = () => {
+    return (
+        <div className='h-screen w-full'>
+            <Container>
+                <Row>
+                    <Col md={12} sm={12}>
+                        <div>
+                            <p className='text-3xl sm:text-5xl font-semibold text-center mt-14 uppercase'>who we are</p>
+                        </div>
+                    </Col>
+                </Row>
+                <div className='mt-10'>
+                    <Row className='mx-auto'>
+                        <Col md={6} sm={12}>
+                            <div>
+                                <p className='font-semibold text-gray-600'>
+                                    EXIM LEATHER is one of the leading leather manufacturers since 1958.
+                                    With over 50 years of experience in the leather industry. <br /> <br />
+                                    EXIM has been focusing on creating high quality leather while adhering to environmental concerns and eco-friendly practices.
+                                    EXIM strives to provide leather excellence through research, innovation, and latest technology. <br /> <br />
+                                    Consisting of a team comprised of skilled workforce, proficient technicians, and modern machineries, we ensure quality, reliability, and maximum customer satisfaction.
+                                </p>
+                            </div>
+                        </Col>
+                        <Col md={6} sm={12}>
+                            <div>
+                                <img src={Industry} alt="Industry Building" className='rounded-md h-2/3' />
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+            </Container>
+        </div>
+    )
+}
+
+export default About;
