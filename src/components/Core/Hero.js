@@ -9,7 +9,7 @@ const Hero = () => {
         <div name="home">
             <Container fluid>
                 <Row>
-                    <Col>
+                    <Col style={{ padding:0, margin:0 }}>
                         <Carousel indicators={false}>
                             <Carousel.Item>
                                 <img
