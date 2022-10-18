@@ -5,13 +5,13 @@ import { Parallax } from 'react-parallax';
 
 //images
 import Industry from '../../images/Industry.jpg';
-import BG from '../../images/Prallax1.jpg';
+import BG from '../../images/Prallax1.jpg'; //bgImage={BG} bgImageStyle={{ backgroundRepeat: 'no-repeat', backgroundPosition: "center" }}
 
 
 const About = () => {
     return (
         <Parallax strength={600} bgImage={BG}>
-            <div className='h-screen w-full'>
+            <div className='w-full bg-no-repeat bg-center'>
                 <Container>
                     <Row>
                         <Col md={12} sm={12}>
@@ -46,6 +46,7 @@ const About = () => {
                         </Col>
                     </Row>
                 </Container>
+
             </div>
         </Parallax>
     )

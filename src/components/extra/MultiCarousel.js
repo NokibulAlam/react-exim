@@ -46,7 +46,7 @@ const MultiCarousel = () => {
                 autoPlaySpeed={1000}
                 transitionDuration={500}
             >
-                {images.slice(0, 5).map(image => {
+                {images.slice(0, 5).map((image, i) => {
                     return (
                         <img
                             draggable={false}
