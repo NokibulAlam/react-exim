@@ -24,7 +24,7 @@ const Processing = () => {
                 <Row>
                     <Col md={12} sm={12}>
                         <div>
-                            <p className=' text-[#2b1c14] text-center mt-10 lg:mx-14'>We start from raw hides and end with identical quality
+                            <p className='text-[#2b1c14] text-center mt-10 lg:mx-14'>We start from raw hides and end with identical quality
                                 finished leather.
                                 During this transformation, the skin passes through various steps of the latest technologies.
                                 We love the raw skin & preserve in modern refrigerators to maintain better quality Constant
@@ -34,22 +34,22 @@ const Processing = () => {
                 </Row>
 
                 <Row>
-                    <Col md={3} sm={12}>
+                    <Col lg={3} md={6} sm={12}>
                         <div className='flex gap-x-14 text-center'>
                             <Card image={CT} title="Collect Skin" />
                         </div>
                     </Col>
-                    <Col md={3} sm={12}>
+                    <Col lg={3} md={6} sm={12}>
                         <div className='flex gap-x-14 text-center'>
                             <Card image={PR} title="Proccessing" />
                         </div>
                     </Col>
-                    <Col md={3} sm={12}>
+                    <Col lg={3} md={6} sm={12}>
                         <div className='flex gap-x-14 text-center'>
                             <Card image={TT} title="Tesing" />
                         </div>
                     </Col>
-                    <Col md={3} sm={12}>
+                    <Col lg={3} md={6} sm={12}>
                         <div className='flex gap-x-14 text-center'>
                             <Card image={EX} title="Export" />
                         </div>
