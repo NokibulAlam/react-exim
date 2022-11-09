@@ -24,7 +24,7 @@ const Processing = () => {
                 <Row>
                     <Col md={12} sm={12}>
                         <div>
-                            <p className='text-[#2b1c14] text-center mt-10 lg:mx-14'>We start from raw hides and end with identical quality
+                            <p className='text-[#2b1c14] text-center mt-10 mb-10 px-5 lg:mx-14'>We start from raw hides and end with identical quality
                                 finished leather.
                                 During this transformation, the skin passes through various steps of the latest technologies.
                                 We love the raw skin & preserve in modern refrigerators to maintain better quality Constant
@@ -33,7 +33,7 @@ const Processing = () => {
                     </Col>
                 </Row>
 
-                <Row>
+                <Row >
                     <Col lg={3} md={6} sm={12}>
                         <div className='flex gap-x-14 text-center'>
                             <Card image={CT} title="Collect Skin" />
@@ -52,6 +52,14 @@ const Processing = () => {
                     <Col lg={3} md={6} sm={12}>
                         <div className='flex gap-x-14 text-center'>
                             <Card image={EX} title="Export" />
+                        </div>
+                    </Col>
+                </Row>
+
+                <Row>
+                    <Col md={12}>
+                        <div>
+                            <p className='text-[#50392c] text-center mt-14 mb-10 lg:mx-14'>Our best-in-class managerial policies have propelled us to become the leading leather exporters out of Bangladesh</p>
                         </div>
                     </Col>
                 </Row>
