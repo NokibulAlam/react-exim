@@ -10,7 +10,7 @@ import BG from '../../images/Prallax1.jpg'; //bgImage={BG} bgImageStyle={{ backg
 
 const About = () => {
     return (
-        <Parallax strength={600} bgImage={BG}>
+        <Parallax strength={600} bgImage={BG} className="photo">
             <div className='w-full bg-no-repeat bg-center pb-14'>
                 <Container>
                     <Row>

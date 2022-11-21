@@ -20,14 +20,6 @@ const Hero = () => {
                                     src={Hero1}
                                     alt="First slide"
                                 />
-
-                                {/* <Carousel.Caption className='lg:mb-14'>
-                                    <div>
-                                        <p className='text-2xl sm:text-7xl font-bold'>WELCOME TO EXIM LEATHER</p>
-                                        <button className='btn btn-warning mx-2'>About Us</button>
-                                        <button className='btn btn-secondary'>Contact Us</button>
-                                    </div>
-                                </Carousel.Caption> */}
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
@@ -35,14 +27,6 @@ const Hero = () => {
                                     src={Hero2}
                                     alt="Second slide"
                                 />
-
-                                {/* <Carousel.Caption className='lg:mb-14'>
-                                    <div>
-                                        <p className='text-2xl sm:text-7xl font-bold'>WELCOME TO EXIM LEATHER</p>
-                                        <button className='btn btn-warning mx-2'>About Us</button>
-                                        <button className='btn btn-secondary'>Contact Us</button>
-                                    </div>
-                                </Carousel.Caption> */}
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
@@ -50,14 +34,6 @@ const Hero = () => {
                                     src={Hero3}
                                     alt="Third slide"
                                 />
-
-                                {/* <Carousel.Caption className='lg:mb-14'>
-                                    <div>
-                                        <p className='text-2xl sm:text-7xl font-bold'>WELCOME TO EXIM LEATHER</p>
-                                        <button className='btn btn-warning mx-2'>About Us</button>
-                                        <button className='btn btn-secondary'>Contact Us</button>
-                                    </div>
-                                </Carousel.Caption> */}
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
@@ -65,23 +41,17 @@ const Hero = () => {
                                     src={Hero4}
                                     alt="Third slide"
                                 />
-
-                                {/* <Carousel.Caption className='lg:mb-14'>
-                                    <div>
-                                        <p className='text-2xl sm:text-7xl font-bold'>WELCOME TO EXIM LEATHER</p>
-                                        <button className='btn btn-warning mx-2'>About Us</button>
-                                        <button className='btn btn-secondary'>Contact Us</button>
-                                    </div>
-                                </Carousel.Caption> */}
                             </Carousel.Item>
                         </Carousel>
+
                         <div className='hero-content'>
                             <h1 className='text-2xl sm:text-6xl font-bold text-white'>WELCOME TO EXIM LEATHER</h1>
                             <div className='button flex justify-center items-center'>
-                                <button className='btn btn-warning mx-2'>About Us</button>
-                                <button className='btn btn-secondary'>Contact Us</button>
+                                <span className='bg-[#EED04A] px-4 py-2 rounded-md font-medium mr-3 text-[14px] sm:text-[20px] sm:mt-8 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 '><a>About</a></span>
+                                <span className='bg-white px-3 py-2 rounded-md font-medium text-[#ce7a51] text-[14px] sm:text-[20px] sm:mt-8 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 '><a>Contact</a></span>
                             </div>
                         </div>
+                        
                     </Col>
                 </Row>
             </Container>

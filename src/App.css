@@ -2,3 +2,9 @@
     margin: 0;
     padding: 0;
 }
+
+.react-parallax-content{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
