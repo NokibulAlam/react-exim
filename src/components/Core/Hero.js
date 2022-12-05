@@ -47,8 +47,8 @@ const Hero = () => {
                         <div className='hero-content'>
                             <h1 className='text-2xl sm:text-6xl font-bold text-white'>WELCOME TO EXIM LEATHER</h1>
                             <div className='button flex justify-center items-center'>
-                                <span className='bg-[#EED04A] px-4 py-2 rounded-md font-medium mr-3 text-[14px] sm:text-[20px] sm:mt-8 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 '><a>About</a></span>
-                                <span className='bg-white px-3 py-2 rounded-md font-medium text-[#ce7a51] text-[14px] sm:text-[20px] sm:mt-8 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 '><a>Contact</a></span>
+                                <span className='bg-[#EED04A] px-4 py-2 rounded-md font-medium mr-3 text-[14px] sm:text-[20px] sm:mt-8 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-10 '><a>About</a></span>
+                                <span className='bg-white px-3 py-2 rounded-md font-medium text-[#ce7a51] text-[14px] sm:text-[20px] sm:mt-8 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-10 '><a>Contact</a></span>
                             </div>
                         </div>
                         
