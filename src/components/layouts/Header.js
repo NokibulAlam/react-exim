@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import Logo from '../../images/Logo-01.png';
+import Logo from '../../images/Logo 2.png';
 import './Header.css';
 
 const Header = () => {
@@ -8,7 +8,7 @@ const Header = () => {
         <div>
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand href="#"><img src={Logo} alt="Logo" className='img-fluid'/></Navbar.Brand>
+                    <Navbar.Brand href="/"><img src={Logo} alt="Logo" className='img-fluid'/></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
 
                     <Navbar.Collapse id="navbarScroll">
@@ -17,7 +17,7 @@ const Header = () => {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Nav.Link href="#action1">Home</Nav.Link>
+                            <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="#action2">About</Nav.Link>
                             <NavDropdown title="Products" id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="#action3">Gallary</NavDropdown.Item>
