@@ -6,6 +6,10 @@ import Product_5 from '../../images/Products/Product (5).jpg';
 import Product_6 from '../../images/Products/Product (6).jpg';
 import Product_7 from '../../images/Products/Product (7).jpg';
 import Product_8 from '../../images/Products/Product (8).jpg';
+import Product_9 from '../../images/Products/Product (9).jpg';
+import Product_10 from '../../images/Products/Product (10).jpg';
+import Product_11 from '../../images/Products/Product (11).jpg';
+import Product_12 from '../../images/Products/Product (12).jpg';
 
 export const Products = ([
     {
@@ -39,5 +43,21 @@ export const Products = ([
     {
         name: 'product-8',
         img: Product_8,
+    },
+    {
+        name: 'product-9',
+        img: Product_9,
+    },
+    {
+        name: 'product-10',
+        img: Product_10,
+    },
+    {
+        name: 'product-11',
+        img: Product_11,
+    },
+    {
+        name: 'product-12',
+        img: Product_12,
     },
 ]);
