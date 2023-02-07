@@ -9,8 +9,7 @@ import { Products } from "../extra/ProductsImages";
 
 const Product = () => {
   return (
-
-    <div className="parallax w-full flex flex-col items-center pb-14">
+    <div className="parallax w-full flex flex-col items-center pb-14 relative">
       <div>
         <h1 className="text-[#fff] text-3xl sm:text-5xl text-center mt-14 uppercase">
           Our Product
@@ -30,11 +29,14 @@ const Product = () => {
       <div className="container px-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
         {Products.map(({ name, img }, i) => (
           <div className="overlay" key={i}>
-            <img src={img} alt={name} className="w-full"/>
+            <img src={img} alt={name} className="w-full" />
           </div>
         ))}
       </div>
 
+      <div>
+        <span className="block pb-10"></span>
+      </div>
     </div>
   );
 };

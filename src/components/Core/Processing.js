@@ -30,7 +30,7 @@ const Processing = () => {
                 leather. During this transformation, the skin passes through
                 various steps of the latest technologies. We love the raw skin &
                 preserve in modern refrigerators to maintain better quality
-                Constant research & new developments is an integral part of SAF
+                Constant research & new developments is an integral part of AYESHA
                 policy.
               </p>
             </div>
