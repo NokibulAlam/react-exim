@@ -24,12 +24,12 @@ const Hero = () => {
                 <img className="d-block w-100" src={Hero3} alt="Third slide" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="d-block w-100" src={Hero4} alt="Third slide" />
+                <img className="d-block w-100" src={Hero4} alt="Fourth slide" />
               </Carousel.Item>
             </Carousel>
 
             <div className="hero-content">
-              <h1 className="text-2xl sm:text-6xl font-bold text-white">
+              <h1 className="text-xl sm:text-6xl font-bold text-white">
                 WELCOME TO AYESHA LEATHER
               </h1>
               <div className="button flex justify-center items-center">

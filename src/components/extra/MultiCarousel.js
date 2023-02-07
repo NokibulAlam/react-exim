@@ -41,7 +41,7 @@ const MultiCarousel = () => {
             <Carousel
                 ssr
                 partialVisbile
-                itemClass="image-item"
+                itemclassName="image-item"
                 responsive={responsive}
                 autoPlaySpeed={1000}
                 transitionDuration={500}
