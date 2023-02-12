@@ -4,14 +4,12 @@ const ContactPage = () => {
   return (
     <div className="w-full">
       <div className="bg-[#f0f0f0] py-14">
-      <h2 className="mb-4 text-3xl font-semibold">CONTACT US</h2>
-            <p className="mb-4 text-[#757474]">
-              KEEP IN TOUCH
-            </p>
+        <div className="text-center">
+          <h2 className="text-[#7a462a] text-3xl sm:text-5xl text-center mt-14 uppercase">CONTACT US</h2>
+          <p className="mb-4 text-[#b95a26]">KEEP IN TOUCH</p>
+        </div>
         <div className="mx-auto flex w-10/12 flex-col overflow-hidden rounded-lg bg-white shadow-md lg:w-8/12 lg:flex-row">
-          
           <div className="w-full py-16 px-12 lg:w-1/2">
-
             <form action="#">
               <div className="mt-5">
                 <input
@@ -45,9 +43,9 @@ const ContactPage = () => {
               <div className="mt-5">
                 <button
                   type="submit"
-                  className="w-full bg-blue-400 py-3 text-center text-white"
+                  className="w-[100px] bg-blue-400 py-3 text-center text-white"
                 >
-                  REGISTER NOW
+                  SUBMIT
                 </button>
               </div>
             </form>
@@ -143,7 +141,7 @@ const ContactPage = () => {
                 />
               </svg>
 
-              <p>34 Aminbazar, Savar</p>
+              <p>34 Hemayetpur, Savar</p>
             </div>
           </div>
         </div>
