@@ -5,7 +5,9 @@ const ContactPage = () => {
     <div className="w-full">
       <div className="bg-[#f0f0f0] py-14">
         <div className="text-center">
-          <h2 className="text-[#7a462a] text-3xl sm:text-5xl text-center mt-14 uppercase">CONTACT US</h2>
+          <h2 className="text-[#7a462a] text-3xl sm:text-5xl text-center mt-14 uppercase">
+            CONTACT US
+          </h2>
           <p className="mb-4 text-[#b95a26]">KEEP IN TOUCH</p>
         </div>
         <div className="mx-auto flex w-10/12 flex-col overflow-hidden rounded-lg bg-white shadow-md lg:w-8/12 lg:flex-row">

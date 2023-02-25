@@ -6,6 +6,7 @@ import Processing from './components/Core/Processing';
 import Product from './components/Core/Product';
 import Footer from './components/layouts/Footer';
 import ContactPage from './components/Core/ContactPage';
+import Objective from './components/Core/Objective';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Processing />
       <Product />
+      <Objective />
       <ContactPage />
       <Footer />
     </div>
