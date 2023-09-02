@@ -30,10 +30,10 @@ const Hero = () => {
               </h1>
               <div className="button flex justify-center items-center">
                 <span className="bg-[#EED04A] px-4 py-2 rounded-md font-medium mr-3 text-[14px] sm:text-[20px] sm:mt-8 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-10 ">
-                  <a>About</a>
+                  About
                 </span>
                 <span className="bg-white px-3 py-2 rounded-md font-medium text-[#ce7a51] text-[14px] sm:text-[20px] sm:mt-8 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-10 ">
-                  <a>Contact</a>
+                  Contact
                 </span>
               </div>
             </div>
