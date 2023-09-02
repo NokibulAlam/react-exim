@@ -1,15 +1,15 @@
-import Product_1 from '../../images/Products/Product (1).jpg';
-import Product_2 from '../../images/Products/Product (2).jpg';
-import Product_3 from '../../images/Products/Product (3).jpg';
-import Product_4 from '../../images/Products/Product (4).jpg';
-import Product_5 from '../../images/Products/Product (5).jpg';
-import Product_6 from '../../images/Products/Product (6).jpg';
-import Product_7 from '../../images/Products/Product (7).jpg';
-import Product_8 from '../../images/Products/Product (8).jpg';
-import Product_9 from '../../images/Products/Product (9).jpg';
-import Product_10 from '../../images/Products/Product (10).jpg';
-import Product_11 from '../../images/Products/Product (11).jpg';
-import Product_12 from '../../images/Products/Product (12).jpg';
+import Product_1 from '../../images/Products/Product_1.jpg';
+import Product_2 from '../../images/Products/Product_2.jpg';
+import Product_3 from '../../images/Products/Product_3.jpg';
+import Product_4 from '../../images/Products/Product_4.jpg';
+import Product_5 from '../../images/Products/Product_5.jpg';
+import Product_6 from '../../images/Products/Product_6.jpg';
+import Product_7 from '../../images/Products/Product_7.jpg';
+import Product_8 from '../../images/Products/Product_8.jpg';
+import Product_9 from '../../images/Products/Product_9.jpg';
+import Product_10 from '../../images/Products/Product_10.jpg';
+import Product_11 from '../../images/Products/Product_11.jpg';
+import Product_12 from '../../images/Products/Product_12.jpg';
 
 export const Products = ([
     {

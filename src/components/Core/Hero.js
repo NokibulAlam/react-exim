@@ -1,8 +1,7 @@
 import React from "react";
-import Hero1 from "../../images/Hero/Hero 1.jpg";
-import Hero2 from "../../images/Hero/Hero 2.jpg";
-import Hero3 from "../../images/Hero/Hero 3.jpg";
-import Hero4 from "../../images/Hero/Hero 4.jpg";
+import Hero1 from "../../images/Hero/Hero_1.jpg";
+import Hero2 from "../../images/Hero/Hero_2.jpg";
+import Hero3 from "../../images/Hero/Hero_3.jpg";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
 
 import "./Hero.css";
@@ -22,9 +21,6 @@ const Hero = () => {
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block w-100" src={Hero3} alt="Third slide" />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img className="d-block w-100" src={Hero4} alt="Fourth slide" />
               </Carousel.Item>
             </Carousel>
 
